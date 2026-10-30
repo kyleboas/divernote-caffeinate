@@ -1,0 +1,14 @@
+{
+  "name": "divernote-caffeinate",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Keep a Mac awake while it is plugged in, so it is always there to run Divernote issues.",
+  "divernote": {
+    "extensions": [
+      "index.mjs"
+    ]
+  },
+  "scripts": {
+    "test": "node --test index.test.mjs"
+  }
+}
